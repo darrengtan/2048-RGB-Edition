@@ -11,12 +11,22 @@
 
     <style>
       .overlay {
-        background-color: black;
+        background: rgb(0, 0, 0);
         opacity: 0.5;
         width: 600px;
         height: 600px;
+        line-height: 400px;
+        margin: 0;
+      }
+
+      .overlay .game-over{
+        text-align: center;
+        opacity: 1.0;
+        color: black;
         font-size: 64px;
-        color: white;
+        line-height: 600px;
+        height: 70px;
+        margin: 0;
       }
 
       canvas {
@@ -26,6 +36,9 @@
   </head>
 
   <body>
+    <div class="score">
+      Score: 0
+    </div>
     <canvas></canvas>
 
     <script type="application/javascript">
