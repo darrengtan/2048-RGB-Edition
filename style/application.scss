@@ -1,5 +1,5 @@
 .content-container {
-  width: 700px;
+  width: 900px;
   margin: 0 auto;
   position: relative;
 }
@@ -9,7 +9,7 @@
   position: absolute;
   left: 10px;
   top: 10px;
-  opacity: 0.5;
+  opacity: 0.3;
   width: 400px;
   height: 400px;
   line-height: 400px;
@@ -24,14 +24,9 @@
   margin: 0;
 }
 
-canvas {
-  position: absolute;
-  border: 10px solid black;
-  border-radius: 10px;
-}
-
 .status-container {
   float: right;
+  width: 200px;
 }
 
 /*----------------------------------------------------------- */
@@ -46,57 +41,101 @@ canvas {
   width: 107px;
   height: 107px;
   line-height: 107px;
-  -webkit-transition: 100ms ease-in-out;
-  -moz-transition: 100ms ease-in-out;
-  transition: 100ms ease-in-out;
+  -webkit-transition: 200ms ease-in-out;
+  -moz-transition: 200ms ease-in-out;
+  transition: 200ms ease-in-out;
   -webkit-transition-property: -webkit-transform;
   -moz-transition-property: -moz-transform;
-  transition-property: transform;
+  transition-property: transform, background-color;
   font-size: 40px;
 }
 
 .tile.val-2 {
-  background: rgb(255, 0, 0);
+  background-color: rgb(255, 0, 0);
+}
+
+.tile.val-2:after {
+  content: "2";
 }
 
 .tile.val-4 {
-  background: rgb(255, 128, 0);
+  background-color: rgb(255, 128, 0);
+}
+
+.tile.val-4:after {
+  content: "4";
 }
 
 .tile.val-8 {
-  background: rgb(255, 255, 0);
+  background-color: rgb(255, 255, 0);
+}
+
+.tile.val-8:after {
+  content: "8";
 }
 
 .tile.val-16 {
-  background: rgb(128, 255, 0);
+  background-color: rgb(128, 255, 0);
+}
+
+.tile.val-16:after {
+  content: "16";
 }
 
 .tile.val-32 {
-  background: rgb(0, 255, 0);
+  background-color: rgb(0, 255, 0);
+}
+
+.tile.val-32:after {
+  content: "32";
 }
 
 .tile.val-64 {
-  background: rgb(0, 255, 128);
+  background-color: rgb(0, 255, 128);
+}
+
+.tile.val-64:after {
+  content: "64";
 }
 
 .tile.val-128 {
-  background: rgb(0, 255, 255);
+  background-color: rgb(0, 255, 255);
+}
+
+.tile.val-128:after {
+  content: "128";
 }
 
 .tile.val-256 {
-  background: rgb(0, 128, 255);
+  background-color: rgb(0, 128, 255);
+}
+
+.tile.val-256:after {
+  content: "256";
 }
 
 .tile.val-512 {
-  background: rgb(0, 0, 255);
+  background-color: rgb(0, 0, 255);
+}
+
+.tile.val-512:after {
+  content: "512";
 }
 
 .tile.val-1024 {
-  background: rgb(128, 0, 255);
+  background-color: rgb(128, 0, 255);
+}
+
+.tile.val-1024:after {
+  content: "1024";
 }
 
 .tile.val-2048 {
-  background: rgb(255, 0, 255);
+  background-color: rgb(255, 0, 255);
+}
+
+.tile.val-2048:after {
+  content: "2048";
 }
 
 .tile.new {
