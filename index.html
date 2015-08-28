@@ -1,6 +1,7 @@
 <html>
   <head>
-    <title>2048 Lite</title>
+    <title>2048: RGB Edition</title>
+    <link href="style/application.css" rel="stylesheet" type="text/css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script type="application/javascript" src="lib/keymaster.js"></script>
     <script type="application/javascript" src="lib/utils.js"></script>
@@ -8,44 +9,6 @@
     <script type="application/javascript" src="lib/board.js"></script>
     <script type="application/javascript" src="lib/game.js"></script>
     <script type="application/javascript" src="lib/gameView.js"></script>
-
-    <style>
-      .content-container {
-        width: 700px;
-        margin: 0 auto;
-        position: relative;
-      }
-
-      .overlay {
-        background: rgb(0, 0, 0);
-        position: absolute;
-        left: 10px;
-        top: 10px;
-        opacity: 0.5;
-        width: 400px;
-        height: 400px;
-        line-height: 400px;
-      }
-
-      .overlay .game-over{
-        text-align: center;
-        opacity: 1.0;
-        color: black;
-        font-size: 64px;
-        height: 70px;
-        margin: 0;
-      }
-
-      canvas {
-        position: absolute;
-        border: 10px solid black;
-        border-radius: 10px;
-      }
-
-      .status-container {
-        float: right;
-      }
-    </style>
   </head>
 
   <body>
