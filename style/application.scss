@@ -127,7 +127,7 @@
   content: "2048";
 }
 
-.tile.new {
+.tile-container .tile.new {
   -webkit-animation: appear 200ms ease 100ms;
   -moz-animation: appear 200ms ease 100ms;
   animation: appear 200ms ease 100ms;
