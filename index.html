@@ -10,11 +10,17 @@
     <script type="application/javascript" src="lib/gameView.js"></script>
 
     <style>
+      .content-container {
+        width: 700px;
+        margin: 0 auto;
+        position: relative;
+      }
+
       .overlay {
         background: rgb(0, 0, 0);
         position: absolute;
-        margin-left: 10px;
-        margin-top: 10px;
+        left: 10px;
+        top: 10px;
         opacity: 0.5;
         width: 400px;
         height: 400px;
@@ -35,14 +41,21 @@
         border: 10px solid black;
         border-radius: 10px;
       }
+
+      .status-container {
+        float: right;
+      }
     </style>
   </head>
 
   <body>
-    <div class="score">
-      Score: 0
+    <div class="content-container">
+      <canvas></canvas>
+      <div class="status-container">
+        <div class="score">Score: 0</div>
+        <div class="result"></div>
+      </div>
     </div>
-    <canvas></canvas>
 
     <script type="application/javascript">
       (function () {
