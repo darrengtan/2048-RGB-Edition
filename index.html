@@ -13,7 +13,6 @@
 
   <body>
     <div class="content-container">
-      <canvas></canvas>
       <div class="status-container">
         <div class="score">Score: 0</div>
         <div class="result"></div>
@@ -51,12 +50,8 @@
 
     <script type="application/javascript">
       (function () {
-        var canvasEl = document.getElementsByTagName("canvas")[0];
-        canvasEl.width = Tiles.Game.DIM_X;
-        canvasEl.height = Tiles.Game.DIM_Y;
-        var ctx = canvasEl.getContext("2d");
         var game = new Tiles.Game();
-        var gameView = new Tiles.GameView(game, ctx);
+        var gameView = new Tiles.GameView(game);
         gameView.start();
       })();
     </script>

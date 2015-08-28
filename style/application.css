@@ -42,6 +42,7 @@ canvas {
 
 .tile {
   position: absolute;
+  text-align: center;
   width: 107px;
   height: 107px;
   line-height: 107px;
@@ -51,6 +52,51 @@ canvas {
   -webkit-transition-property: -webkit-transform;
   -moz-transition-property: -moz-transform;
   transition-property: transform;
+  font-size: 40px;
+}
+
+.tile.val-2 {
+  background: rgb(255, 0, 0);
+}
+
+.tile.val-4 {
+  background: rgb(255, 128, 0);
+}
+
+.tile.val-8 {
+  background: rgb(255, 255, 0);
+}
+
+.tile.val-16 {
+  background: rgb(128, 255, 0);
+}
+
+.tile.val-32 {
+  background: rgb(0, 255, 0);
+}
+
+.tile.val-64 {
+  background: rgb(0, 255, 128);
+}
+
+.tile.val-128 {
+  background: rgb(0, 255, 255);
+}
+
+.tile.val-256 {
+  background: rgb(0, 128, 255);
+}
+
+.tile.val-512 {
+  background: rgb(0, 0, 255);
+}
+
+.tile.val-1024 {
+  background: rgb(128, 0, 255);
+}
+
+.tile.val-2048 {
+  background: rgb(255, 0, 255);
 }
 
 .tile.new {
