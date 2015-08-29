@@ -128,9 +128,9 @@
 }
 
 .tile-container .tile.new {
-  -webkit-animation: appear 200ms ease 100ms;
-  -moz-animation: appear 200ms ease 100ms;
-  animation: appear 200ms ease 100ms;
+  -webkit-animation: appear 200ms ease 200ms;
+  -moz-animation: appear 200ms ease 200ms;
+  animation: appear 200ms ease 200ms;
   -webkit-animation-fill-mode: backwards;
   -moz-animation-fill-mode: backwards;
   animation-fill-mode: backwards; }
