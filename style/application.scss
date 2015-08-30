@@ -57,9 +57,9 @@
   width: 100px;
   height: 100px;
   line-height: 100px;
-  -webkit-transition: 200ms ease-in-out;
-  -moz-transition: 200ms ease-in-out;
-  transition: 200ms ease-in-out;
+  -webkit-transition: 150ms ease-in-out;
+  -moz-transition: 150ms ease-in-out;
+  transition: 150ms ease-in-out;
   -webkit-transition-property: -webkit-transform;
   -moz-transition-property: -moz-transform;
   transition-property: transform, background-color;
@@ -155,9 +155,9 @@
 }
 
 .tile-container .tile.new {
-  -webkit-animation: appear 200ms ease 200ms;
-  -moz-animation: appear 200ms ease 200ms;
-  animation: appear 200ms ease 200ms;
+  -webkit-animation: appear 150ms ease 150ms;
+  -moz-animation: appear 150ms ease 150ms;
+  animation: appear 150ms ease 150ms;
   -webkit-animation-fill-mode: backwards;
   -moz-animation-fill-mode: backwards;
   animation-fill-mode: backwards; }
