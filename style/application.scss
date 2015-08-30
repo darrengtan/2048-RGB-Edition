@@ -57,9 +57,9 @@
   width: 100px;
   height: 100px;
   line-height: 100px;
-  -webkit-transition: 150ms ease-in-out;
-  -moz-transition: 150ms ease-in-out;
-  transition: 150ms ease-in-out;
+  -webkit-transition: 100ms ease-in-out;
+  -moz-transition: 100ms ease-in-out;
+  transition: 100ms ease-in-out;
   -webkit-transition-property: -webkit-transform;
   -moz-transition-property: -moz-transform;
   transition-property: transform, background-color;
@@ -153,14 +153,6 @@
 .tile.val-2048:after {
   content: "2048";
 }
-
-.tile-container .tile.new {
-  -webkit-animation: appear 150ms ease 150ms;
-  -moz-animation: appear 150ms ease 150ms;
-  animation: appear 150ms ease 150ms;
-  -webkit-animation-fill-mode: backwards;
-  -moz-animation-fill-mode: backwards;
-  animation-fill-mode: backwards; }
 
 .tile.pos-0-0 {
   -webkit-transform: translate(0px, 0px);
