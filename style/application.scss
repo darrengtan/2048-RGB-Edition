@@ -63,6 +63,10 @@
   margin-top: 10px;
 }
 
+.board-row:last-child {
+  border-radius: 10px;
+}
+
 .board-row .board-spot {
   float: left;
   width: 100px;
