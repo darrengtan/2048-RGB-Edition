@@ -92,6 +92,13 @@
   line-height: 200px;
   color: white;
 }
+
+.end-message-content .message {
+  animation: colorchange 10s infinite;
+  -webkit-animation: colorchange 10s infinite;
+  -moz-animation: colorchange 10s infinite;
+  -o-animation: colorchange 10s infinite;
+}
 .none {
   display: none;
 }
