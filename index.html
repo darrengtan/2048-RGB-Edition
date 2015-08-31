@@ -1,6 +1,7 @@
 <html>
   <head>
     <title>2048: RGB Edition</title>
+    <link href="style/button.scss" rel="stylesheet" type="text/css">
     <link href="style/application.scss" rel="stylesheet" type="text/css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script type="application/javascript" src="lib/keymaster.js"></script>
@@ -21,7 +22,7 @@
           Move the tiles using the arrow keys. Merge tiles of the same value and
           reach 2048!
         </div>
-        <button class="reset-button">Reset Game</button>
+        <button class="reset-button btn btn-danger">Reset Game</button>
       </div>
 
       <div class="game-container">
@@ -55,7 +56,9 @@
       <div class="end-message-background none"></div>
       <div class="end-message-content none">
         <div class="message"></div>
-        <button class="hide-button">Hide Message</button><button class="reset-button">Play Again</button>
+        <div class="score">Score: 0</div>
+        <button class="hide-button btn btn-primary">Hide Message</button>
+        <button class="reset-button btn btn-success">Play Again</button>
       </div>
     </div>
 
