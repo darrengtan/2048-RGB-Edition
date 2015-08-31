@@ -3,17 +3,57 @@
   height: 450px;
   margin: 0 auto;
   position: relative;
+  text-align: center;
+  font-size: 60px;
+  animation: colorchange 10s infinite;
+  -webkit-animation: colorchange 10s infinite;
+  -moz-animation: colorchange 10s infinite;
+  -o-animation: colorchange 10s infinite;
+}
+
+@keyframes colorchange {
+  0%   {color: red;}
+  25%  {color: yellow;}
+  50%  {color: blue;}
+  75%  {color: green;}
+  100% {color: red;}
+}
+
+@-webkit-keyframes colorchange {
+  0%   {color: red;}
+  25%  {color: yellow;}
+  50%  {color: blue;}
+  75%  {color: green;}
+  100% {color: red;}
+}
+
+@-moz-keyframes colorchange {
+  0%   {color: red;}
+  25%  {color: yellow;}
+  50%  {color: blue;}
+  75%  {color: green;}
+  100% {color: red;}
+}
+@-o-keyframes colorchange {
+  0%   {color: red;}
+  25%  {color: yellow;}
+  50%  {color: blue;}
+  75%  {color: green;}
+  100% {color: red;}
 }
 
 .status-container {
   float: right;
   width: 200px;
+  font-size: 20px;
+  color: black;
 }
 
 .game-container {
   position: absolute;
   width: 450px;
   height: 450px;
+  color: black;
 }
 
 .game-container .board-row {
@@ -43,6 +83,7 @@
   border: 10px solid black;
   width: 430px;
   height: 430px;
+  color: black;
 }
 
 .tile-container:after {
