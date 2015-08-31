@@ -13,32 +13,28 @@
 
 @keyframes colorchange {
   0%   {color: red;}
-  25%  {color: yellow;}
-  50%  {color: blue;}
-  75%  {color: green;}
+  33%  {color: green;}
+  67%  {color: blue;}
   100% {color: red;}
 }
 
 @-webkit-keyframes colorchange {
   0%   {color: red;}
-  25%  {color: yellow;}
-  50%  {color: blue;}
-  75%  {color: green;}
+  33%  {color: green;}
+  67%  {color: blue;}
   100% {color: red;}
 }
 
 @-moz-keyframes colorchange {
   0%   {color: red;}
-  25%  {color: yellow;}
-  50%  {color: blue;}
-  75%  {color: green;}
+  33%  {color: green;}
+  67%  {color: blue;}
   100% {color: red;}
 }
 @-o-keyframes colorchange {
   0%   {color: red;}
-  25%  {color: yellow;}
-  50%  {color: blue;}
-  75%  {color: green;}
+  33%  {color: green;}
+  67%  {color: blue;}
   100% {color: red;}
 }
 
