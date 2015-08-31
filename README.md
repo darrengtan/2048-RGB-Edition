@@ -19,7 +19,8 @@ Use the arrow keys to move the tiles. Merge tiles of the same value and reach 20
 
 * GameView: The gameView is in charge of displaying the game and binding the proper events. It inputs the move command for the game based on the arrow key used and restarts the game if the reset buttons are pressed.
 
-## Need to Work On
+## Upcoming Features
 
-* merge tiles of same value
-* listen to arrow keys
+* Make the game more visually appealing
+* Animation cancel if an input is entered during transition.
+* Cooler transitions
