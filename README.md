@@ -3,7 +3,7 @@
 An RGB version of the 2048 game. This application is written in Javascript and
 uses adding/removing classes to apply the proper transitions.
 
-Live Link: https://darrengtan.github.io
+Live Link: http://www.darrentan.xyz/2048-RGB-Edition/
 
 ## How to Play
 
