@@ -24,3 +24,4 @@ Use the arrow keys to move the tiles. Merge tiles of the same value and reach 20
 * Make the game more visually appealing
 * Animation cancel if an input is entered during transition.
 * Cooler transitions
+* Fix end of turn
