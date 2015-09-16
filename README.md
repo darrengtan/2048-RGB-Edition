@@ -9,6 +9,11 @@ Live Link: http://www.darrentan.xyz/2048-RGB-Edition/
 
 Use the arrow keys to move the tiles. Merge tiles of the same value and reach 2048 before the board is filled!
 
+## Technology
+
+* JavaScript
+* Bootstrap (buttons)
+
 ## Implementation
 
 * Tile: My tiles hold information necessary to determine merging. Its attributes include value, position, whether it has merged or not, and the selector to grab the necessary tile in the index.html. It is also in charge of finding a random empty position on the board.
